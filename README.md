@@ -4,7 +4,7 @@ npm i
 (по ссылке имеется гайд)
 
 
-в директории json-server-distances
+в директории установленного json-server-distances
 прописать json-server --watch db.json --port 3001
 
 npm start 
