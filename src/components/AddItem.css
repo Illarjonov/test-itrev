@@ -1,0 +1,32 @@
+.button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buttonEnd{
+    background-color: #6ade61;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.button:hover {
+    background-color: #3B7336;
+}
+.alert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+.modal{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-top: 25px;
+}

@@ -1,13 +1,11 @@
-const GET_ITEMS = `GET_ITEMS`;
-
-export  const SORT_BY_DISTANCE_PLUS = 'SORT_BY_DISTANCE_PLUS';
-export  const SORT_BY_DISTANCE_MINUS = 'SORT_BY_DISTANCE_MINUS';
-export const SORT_BY_DATE_PLUS = 'SORT_BY_DATE_PLUS';
-export const SORT_BY_DATE_MINUS = 'SORT_BY_DATE_MINUS';
-export const DELETE_ITEM = 'DELETE_ITEM';
-
-export const EDIT_ITEM = 'EDIT_ITEM';
-export const ADD_ITEM = 'ADD_ITEM';
+import {GET_ITEMS,
+        SORT_BY_DISTANCE_PLUS,
+        SORT_BY_DISTANCE_MINUS,
+        SORT_BY_DATE_PLUS,
+        SORT_BY_DATE_MINUS,
+        DELETE_ITEM,
+        EDIT_ITEM,
+        ADD_ITEM} from './actionTypes';
 
 export const initialState = {
     items: [],
@@ -99,4 +97,3 @@ export const sortByDateMinusAction = () => ({type: SORT_BY_DATE_MINUS});
 export const deleteItemAction = () => ({type: DELETE_ITEM });
 export const editItemAction = (value) => ({type: EDIT_ITEM, payload: value});
 export const addItemAction = (value) => ({type: ADD_ITEM, payload: value});
-//export const deleteItemAction = () => ({type: DELETE_ITEM, payload: item.id }); //сделал напрямую
