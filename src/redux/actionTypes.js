@@ -1,0 +1,8 @@
+export const GET_ITEMS = `GET_ITEMS`;
+export  const SORT_BY_DISTANCE_PLUS = 'SORT_BY_DISTANCE_PLUS';
+export  const SORT_BY_DISTANCE_MINUS = 'SORT_BY_DISTANCE_MINUS';
+export const SORT_BY_DATE_PLUS = 'SORT_BY_DATE_PLUS';
+export const SORT_BY_DATE_MINUS = 'SORT_BY_DATE_MINUS';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const EDIT_ITEM = 'EDIT_ITEM';
+export const ADD_ITEM = 'ADD_ITEM';
