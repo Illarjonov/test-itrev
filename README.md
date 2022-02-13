@@ -5,7 +5,7 @@ npm i
 
 
 в директории установленного json-server-distances
-прописать json-server --watch db.json --port 3001
+прописать npm start (главное чтобы запустился на 3000 порту "http://localhost:3000")
 
 npm start 
 
