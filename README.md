@@ -1,5 +1,3 @@
-npm i 
-
 усановить json-server из https://github.com/itrevolution-perm/test-task-api.git
 (по ссылке имеется гайд)
 
@@ -7,6 +5,7 @@ npm i
 в директории установленного json-server-distances
 прописать npm start (главное чтобы запустился на 3000 порту "http://localhost:3000")
 
+npm install
 npm start 
 
 используемые технологии:
