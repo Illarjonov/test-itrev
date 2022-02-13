@@ -11,4 +11,4 @@ npm start
 используемые технологии:
 react, redux-thunk, axios, json-server, formik, react-charts2, react-datepacker, react-modal
 
-
+В тестовом задании не работала ссылка на фигму, сверстал по-минимуму.
